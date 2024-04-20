@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+
+  <style>
+    .phone {
+      height: 70px;
+      position: absolute;
+      left: 150px;
+      position: absolute;
+      top: 10px;
+    }
+    .nav {
+      height: 100px;
+      width: 100%;
+      background-color: white;
+    }
+    .business {
+      position: absolute;
+      left: 400px;
+      position: absolute;
+      top: 35px;
+    }
+    .pres {
+      position: absolute;
+      left: 630px;
+      position: absolute;
+      top: 35px;
+    }
+    .careers {
+      position: absolute;
+      left: 730px;
+      position: absolute;
+      top: 35px;
+    }
+    .about {
+      position: absolute;
+      left: 850px;
+      position: absolute;
+      top: 35px;
+    }
+    .blog {
+      position: absolute;
+      left: 1000px;
+      position: absolute;
+      top: 35px;
+    }
+    .contact {
+      position: absolute;
+      left: 1100px;
+      position: absolute;
+      top: 35px;
+    }
+    .trust {
+      position: absolute;
+      left: 1250px;
+      position: absolute;
+      top: 35px;
+    }
+    .first {
+      height: 500px;
+      width: 100%;
+    }
+    .download {
+      color: blueviolet;
+      position: absolute;
+      bottom: 600px;
+      position: absolute;
+      left: 150px;
+      font-size: 30px;
+    }
+    .from {
+      position: absolute;
+      bottom: 500px;
+      position: absolute;
+      left: 150px;
+      font-size: 30px;
+      color: antiquewhite;
+    }
+    .button {
+      position: absolute;
+      left: 150px;
+      position: absolute;
+      top: 420px;
+      height: 50px;
+      border-radius: 20px;
+      width: 250px;
+    }
+    .radio1 {
+      position: absolute;
+      left: 720px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .radio2 {
+      position: absolute;
+      left: 740px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .radio3 {
+      position: absolute;
+      left: 760px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .radio4 {
+      position: absolute;
+      left: 780px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .radio5 {
+      position: absolute;
+      left: 800px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .radio6 {
+      position: absolute;
+      left: 820px;
+      position: absolute;
+      bottom: 300px;
+    }
+    .box {
+      height: 250px;
+      width: 250px;
+      background-color: black;
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      bottom: 20px;
+    }
+    .box1 {
+      height: 250px;
+      width: 250px;
+      background-color: black;
+      position: absolute;
+      left: 650px;
+      position: absolute;
+      bottom: 20px;
+    }
+    .box2 {
+      height: 250px;
+      width: 250px;
+      background-color: black;
+      position: absolute;
+      left: 1200px;
+      position: absolute;
+      bottom: 20px;
+    }
+    .simple {
+      color: blueviolet;
+      font-size: 40px;
+      position: absolute;
+      top: 1000px;
+      position: absolute;
+      left: 200px;
+    }
+    .one {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1080px;
+      font-size: 20px;
+    }
+    .pay {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1130px;
+    }
+    .hr {
+      width: 400px;
+      position: absolute;
+      top: 1190px;
+      position: absolute;
+      left: 200px;
+    }
+    .pay1 {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1230px;
+      font-size: 20px;
+    }
+    .choose {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1300px;
+    }
+    .hr1 {
+      width: 400px;
+      position: absolute;
+      top: 1350px;
+      position: absolute;
+      left: 200px;
+    }
+    .find {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1400px;
+      font-size: 20px;
+    }
+    .book {
+      position: absolute;
+      left: 200px;
+      position: absolute;
+      top: 1470px;
+    }
+    .video {
+      position: absolute;
+      top: 950px;
+      position: absolute;
+      left: 900px;
+    }
+    .nt {
+      height: 200px;
+      position: absolute;
+      top: 1600px;
+      position: absolute;
+      left: 500px;
+    }
+    .image1 {
+      position: absolute;
+      top: 1900px;
+      position: absolute;
+      left: 200px;
+      transition: all 0.4s;
+
+    }
+
+    .image1:hover{
+      transform: scale(1.1);
+      z-index: 1;
+
+    }
+    .image2 {
+      position: absolute;
+      top: 1900px;
+      position: absolute;
+      left: 400px;
+      transition: all 0.4s;
+    }
+    .image2:hover{
+      transform: scale(1.1);
+      z-index: 1;}
+
+    .image3 {
+      position: absolute;
+      top: 1900px;
+      position: absolute;
+      left: 700px;
+      transition: all 0.4s;
+    }
+    .image3:hover{
+      transform: scale(1.1);
+      z-index: 1;}
+
+    .image4 {
+      position: absolute;
+      top: 1900px;
+      position: absolute;
+      left: 900px;
+      transition: all 0.4s;
+    }
+    .image4:hover{
+      transform: scale(1.1);
+      z-index: 1;}
+
+
+    .image5 {
+      position: absolute;
+      top: 1900px;
+      position: absolute;
+      left: 1100px;
+      z-index: -1;
+      transition: all 0.4s;
+    }
+    .image5:hover{
+      transform: scale(1.1);
+      z-index: 1;}
+
+    .phone2{position: absolute;top:1790px ;position: absolute;left:650px  ;}
+    .button1{position: absolute;top:2400px;position: absolute;left: 700px;width:300px ;border-radius:30px ;height: 40px;}
+    .payments{position: absolute;top:2500px ;position: absolute;left:400px ;}
+    .kar{position: absolute;top:2590px ;position: absolute;left:800px ;color:violet ;}
+    .your{position: absolute;top:2500px ;position: absolute;left:200px ;border-radius:30px ;}
+    .at{position: absolute;top:2900px ;position: absolute;left:680px;color: blueviolet;font-size:40px ;}
+    .store{position: absolute;top:2950px ;position: absolute;left:550px;color: blueviolet;font-size:40px ;}
+    .button2{background:rgb(0, 217, 255);position: absolute;top: 3040px;position: absolute;left: 700px;width:200px ;border-radius:30px ;color: white;}
+    .Partner{position: absolute;top:3100px;height: 380px;width: 100%;}
+    .aa{position: absolute;top:3400px;position: absolute;left:200px ;}
+    .for{position: absolute;top:3500px;position: absolute;left:1000px;font-size:40px ;color: blueviolet;}
+    .find1{position: absolute;top:3580px;position: absolute;left:1000px;}
+    .want{position: absolute;top:3650px;position: absolute;left:1000px;}
+    .be{position: absolute;top:3690px;position: absolute;left:1000px;color: violet;}
+    .get{position: absolute;top:3730px;position: absolute;left:1000px;}
+    .hr2{width:400px ;position: absolute;top:3760px;position: absolute;left:1000px;}
+    .accpet{position: absolute;top:3800px;position: absolute;left:1000px;color: violet;}
+    .help{position: absolute;top:3840px;position: absolute;left:1000px;}
+    .hr3{width:400px ;position: absolute;top:3860px;position: absolute;left:1000px;}
+    .integrate{position: absolute;top:3890px;position: absolute;left:1000px;color: violet;}
+    .process{position: absolute;top:3930px;position: absolute;left:1000px;}
+    .hr4{width:400px ;position: absolute;top:3960px;position: absolute;left:1000px;}
+.Advertise{width:400px ;position: absolute;top:4000px;position: absolute;left:1000px;color: violet;}
+.let{position: absolute;top:4040px;position: absolute;left:1000px;}
+.qqq{position: absolute;top:4300px ;width: 100%;}
+.eee{position: absolute;top:4800px ;width: 100%;}
+</style>
+  <body>
+    <nav class="nav">
+      <img src="phone pe.svg" class="phone" />
+      <li class="business">BUSINESS SOLUTIONS</li>
+      <li class="pres">PRES</li>
+      <li class="careers">CAREERS</li>
+      <li class="about">ABOUT US</li>
+      <li class="blog">BLOG</li>
+      <li class="contact">CONTACT US</li>
+      <li class="trust">TRUST & SAFETY</li>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="hp-banner-indus-desktop.png" class="d-block w-100" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="hp-banner-pg (2).jpg" class="d-block w-100" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="hp-banner-pb.jpg" class="d-block w-100" alt="3">
+        </div>
+        <img src="hp-banner-sm-2.jpg" class="d-block w-100" alt="4">
+      </div>
+      <div class="carousel-item">
+        <img src="" class="d-block w-100" alt="5">
+      </div>
+      <div class="carousel-item">
+        <img src="hp-banner4wt.png" class="d-block w-100" alt="6">
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <p class="download">DOWNLOAD ALL YOUR FAVOURITE APPS</p>
+    <p class="from">From India's very own<br />Android app store</p>
+    <button class="button">Download Indus Appstore</button>
+    <input type="radio" class="radio1" />
+    <input type="radio" class="radio2" />
+    <input type="radio" class="radio3" />
+    <input type="radio" class="radio4" />
+    <input type="radio" class="radio5" />
+    <input type="radio" class="radio6" />
+    <div class="box">
+      <img src="Screenshot 2024-04-18 165734.png" />
+    </div>
+    <div class="box1">
+      <img src="imges1.png" />
+    </div>
+    <div class="box2">
+      <img src="image111.png" />
+    </div>
+    <p class="simple">Simple, Fast & Secure</p>
+    <p class="one">One app for all things money.</p>
+    <h6 class="pay">
+      Pay bills, recharge, send money, buy gold, invest and shop at your
+      <br />favourite stores.
+    </h6>
+    <hr class="hr" />
+    <p class="pay1">Pay whenever you like, wherever you like.</p>
+    <h6 class="choose">
+      Choose from options like UPI, the PhonePe wallet or your Debit and<sbr />Credit
+      Card.
+    </h6>
+    <hr class="hr1" />
+    <p class="find">Find all your favourite apps on PhonePe Switch.</p>
+    <h6 class="book">
+      Book flights, order food or buy groceries. Use all your favourite apps<br />
+      without downloading them.
+    </h6>
+    <video
+      autoplay=""
+      loop=""
+      muted=""
+      poster="/static/fast-secure-video-poster-v3-6f33427d52f42e474727f7442b029c59.png"
+      playsinline=""
+      class="video"
+    >
+      <source
+        src="https://www.phonepe.com/webstatic/6729/videos/page/home-fast-secure-v3.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <img src="nt_insurance.png" class="nt" />
+    <img src="12.png" class="image1" />
+    <img src="nt_thumb_2.png" class="image2" />
+    <img src="nt_thumb_3 (1).png" class="image3" />
+    <img src="nt_thumb_4.png" class="image4" />
+    <img src="nt_thumb_5.png" class="image5" />
+    <img src="pee.png" class="phone2">
+    <button class="button1">Watch all videos</button>
+    <p class="payments">Payments on PhonePe are safe, reliable and fast. One in three Indians are now using the PhonePe app to send money, recharge, pay<br> bills and do so much more, in just a few simple clicks. PhonePe has also introduced several Insurance products and Investment<br> options that offer every Indian an equal opportunity to unlock the flow of money, and get access to financial services.</p>
+    <p class="kar">#KarteJaBadhteJa</p>
+    <img src="1223.png" class="your">
+    <p class="at"> At 3.9 Crore</p>
+    <p class="store">stores, apps, websites & more</p>
+    <button class="button2">Partner with us</button>
+    <img src="partner-section-desk.png" class="Partner"/>
+    <img src="aaa.png" class="aa"/>
+    <h3 class="for">For Busniess</h3>
+    <p class="find1">Find the digital payment solution that fits your business needs</p>
+    <p class="want">I want to:</p>
+    <h5 class="be">Be onephonePe Switch</h5>
+    <p class="get">Get new users for your app</p>
+    <hr class="hr2">
+    <h5 class="accpet">Accpet payments at stores</h5>
+    <p class="help">help your business go cashless</p>
+    <hr class="hr3">
+    <h5 class="integrate">integrate phonepe payments gateway</h5>
+    <p class="process">process online payments seamlessly</p>
+    <hr class="hr4">
+    <h5 class="Advertise">Advertise on phonepe</h5>
+    <p class="let">Advertise & let custtomers  know about you</p>
+    <img src="qqq.png"class="qqq"/>
+    <img src="eee.png" class="eee"/>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </script>
+</html>
